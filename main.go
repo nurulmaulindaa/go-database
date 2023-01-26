@@ -7,6 +7,8 @@ import (
 )
 
 func main() {
-	var tt = entity.Comment{}
+	var tt = entity.Comment{
+		Id: 1,
+	}
 	log.Println("Test Golang ...", tt)
 }
